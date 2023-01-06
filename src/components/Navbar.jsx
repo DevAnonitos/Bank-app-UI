@@ -15,7 +15,7 @@ const Navbar = () => {
         <img 
           src={logo} 
           alt="hoobank" 
-          className='w-[124px] h-[32px] cursor-pointer' 
+          className='w-[124px] h-[32px] cursor-pointer touch-pan-up' 
         />
 
         <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
