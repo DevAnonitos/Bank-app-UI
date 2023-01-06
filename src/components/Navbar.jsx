@@ -15,7 +15,7 @@ const Navbar = () => {
         <img 
           src={logo} 
           alt="hoobank" 
-          className='w-[124px] h-[32px] cursor-pointe' 
+          className='w-[124px] h-[32px] cursor-pointer' 
         />
 
         <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
@@ -24,7 +24,7 @@ const Navbar = () => {
               key={nav.id}
               className={`font-poppins font-normal cursor-pointer text-[16px] 
               ${index === navLinks.length-1 ? 'mr-0' : 'mr-10'} text-white
-              border-2 border-slate-400 px-4 py-1 rounded-lg ring-2 hover:brightness-200
+              border-2 border-cyan-400 box-shadow-hover px-4 py-1 rounded-lg ring-2 hover:brightness-200
               `}
             >
               <a href={`#${nav.id}`}>

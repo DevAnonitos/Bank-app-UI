@@ -75,6 +75,10 @@
   );
 }
 
+.box-shadow-hover{
+  box-shadow: rgba(136, 165, 191, 0.5) 6px 2px 16px 0px, rgba(255, 255, 255, 0.386) -6px -2px 16px 0px;
+}
+
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
