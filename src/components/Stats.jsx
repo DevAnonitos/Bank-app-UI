@@ -12,7 +12,7 @@ const Stats = () => {
             className={`
               flex-1 flex justify-center items-center 
               flex-row m-3 bg-discount-gradient py-2 
-              rounded-2xl hover:scale-125 duration-200 delay-100 ease-out cursor-default`
+              rounded-2xl`
             }
           >
             <h4 
