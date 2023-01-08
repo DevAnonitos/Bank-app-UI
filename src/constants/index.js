@@ -49,7 +49,7 @@ export const feedback = [
         content:
         "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
         name: "Herman Jensen",
-        title: "Founder & Leader",
+        title: "Creator & designer",
         img: people01,
     },
         {
