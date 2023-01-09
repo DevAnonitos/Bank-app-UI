@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Button from "./Button";
 
 const CTA = () => {
   return (
-    <div>CTA</div>
+    <>
+      <section>
+        <div>
+          <h2>
+            
+          </h2>
+        </div>
+      </section>
+    </>
   )
 }
 
