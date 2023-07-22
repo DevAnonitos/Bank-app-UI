@@ -1,21 +1,23 @@
-import React from 'react'; 
+import React from 'react';
 import styles from './style';
 
-import { 
-  Billing, 
-  Business, 
-  CardDeal, 
-  Clients, 
-  CTA, 
-  Footer, 
-  Navbar, 
-  Stats, 
-  Testimonials, 
-  Hero 
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  Stats,
+  Testimonials,
+  Hero
 } from "./components";
 
+import HeroSection from './components/HeroSection';
+
 function App() {
- 
+
   return (
     <div className="bg-primary w-full overflow-hidden">
       {/*================== Navbar========================= */}
@@ -43,7 +45,7 @@ function App() {
           <Footer />
         </div>
       </div>
-
+      <HeroSection />
     </div>
   )
 }
